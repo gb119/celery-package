@@ -48,6 +48,7 @@ test:
     - boto3>=1.9.178
     - moto>=2.2.6
     - pip
+    - google-api-python-client
   source_files:
     - t
   imports:
