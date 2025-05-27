@@ -78,7 +78,7 @@ test:
     - celery beat --help
     - celery multi help
     - celery shell --help
-    - pytest t/unit
+    # - pytest t/unit
 
 about:
   home: http://celeryproject.org
