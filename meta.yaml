@@ -1,14 +1,14 @@
 
 {% set name = "celery" %}
-{% set version = "5.4.0" %}
+{% set version = "5.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/celery-{{ version }}.tar.gz
-  sha256: 504a19140e8d3029d5acad88330c541d4c3f64c789d85f94756762d8bca7e706
+  url: https://files.pythonhosted.org/packages/bf/03/5d9c6c449248958f1a5870e633a29d7419ff3724c452a98ffd22688a1a6a/celery-5.5.2.tar.gz
+  sha256: 4d6930f354f9d29295425d7a37261245c74a32807c45d764bedc286afd0e724e
 build:
   noarch: python
   entry_points:
